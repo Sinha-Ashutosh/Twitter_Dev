@@ -11,12 +11,5 @@ app.listen(3000, async () => {
     console.log('Server Started');
     await connect();
     console.log('MongoDb connected');
-    // const tweet = await Tweet.create({
-    //     content: 'Second Tweet',
-    //     userEmail: 'a@b.com'
-    // });
-    //const tweets = await Tweet.find();
-    const tweetRepo = new TweetRepository();
-    const tweet = await tweetRepo.getAll(0, 4);
-    console.log(tweet[0].contentWithEmail);
+
 })
