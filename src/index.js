@@ -1,5 +1,5 @@
-const express = require('express');
-const connect = require('./config/databse');
+import express from 'express';
+import {connect} from './config/databse.js';
 const app = express();
 
 app.listen(3000, async () => {
