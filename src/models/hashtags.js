@@ -1,5 +1,4 @@
 const mongoose = require('mongoose');
-const Tweet = require('./tweet');
 
 const hashtagSchema = new mongoose.Schema({
     title: {
