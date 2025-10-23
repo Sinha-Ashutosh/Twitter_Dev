@@ -38,3 +38,5 @@ class LikeService {
         return isAdded;
     }
 }
+
+export default LikeService;
